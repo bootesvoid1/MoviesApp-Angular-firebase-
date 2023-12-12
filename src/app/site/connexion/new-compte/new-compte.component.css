@@ -1,0 +1,40 @@
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+ }
+
+ .form-card {
+  width: 300px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ }
+
+ .form-field {
+  width: 100%;
+  margin-bottom: 10px;
+ }
+
+ .mat-form-field-appearance-fill .mat-form-field-flex {
+  background-color: #f0f2f5;
+ }
+
+ /* button {
+  background-color: #fff!important;
+  color: #198754!important;
+  border: none;
+  border-radius: 5px;
+  border-color: #198754!important;
+  padding: 10px;
+  width: 100%;
+  cursor: pointer;
+ }
+
+ button:hover {
+  background-color: #198754!important;
+  opacity: 0.8;
+ } */

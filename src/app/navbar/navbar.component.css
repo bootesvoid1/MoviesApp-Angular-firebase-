@@ -1,0 +1,9 @@
+.navbar{
+  background-color: black;
+}
+.email{
+  margin:10px;
+  font-family: inherit;
+  font-size: medium;
+  font-weight: bold;
+}

@@ -1,0 +1,11 @@
+<div class="center">
+  <mat-card class="form-card">
+    <mat-form-field class="form-field">
+      <input matInput placeholder="Email" formControlName="email" #email>
+    </mat-form-field>
+    <mat-form-field class="form-field">
+      <input matInput placeholder="Password" formControlName="password" type="password" #pass>
+    </mat-form-field>
+    <button mat-raised-button color="primary" (click)="signInUser(email.value,pass.value)">Se connecter</button>
+  </mat-card>
+ </div>
